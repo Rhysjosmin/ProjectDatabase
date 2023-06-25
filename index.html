@@ -21,15 +21,21 @@
         font-family: ibm plex mono;
     }
     .project-container {
-      border-radius: 3px;
-      margin: 4px;
-      background: hsl(0, 0%, 93%);
+      position: relative;
+      border-radius: 2px;
+      margin: 5px;
+      background: hsl(0, 0%,93%);
+      outline: 1px solid rgba(63, 63, 63, 0.293);
       padding: 8px;
     }
 
     .project-name {
       font-size: 20px;
       font-weight: 1000;
+    }
+    .time{
+      font-size: .7em;
+      color: rgba(0, 0, 255, 0.696);
     }
 .project-tags span{
     margin:3px;
@@ -50,12 +56,22 @@
     }
 
     .project-manager {
+      margin-top: 6px;
+      color: rgb(94, 98, 113);
       font-style: italic;
     }
     .src{
         display: block;
         margin-top: 10px;
         /* background: red; */
+    }
+    img{
+      position: absolute;
+      display: block;
+      height: 100px;
+      right: 10px;
+      top: 10px;
+      border-radius: 10px;
     }
   </style>
 </head>
@@ -83,7 +99,7 @@
 
         const projectDescription = document.createElement('p');
         projectDescription.classList.add('project-description');
-        projectDescription.textContent = project.Description;
+        projectDescription.innerHTML = project.Description +" <span class='time'>"+ project.Timeline.Start +"</span> -"+" <span class='time'>"+ project.Timeline.End.split('T')[0] +"</span>";
 
         const projectTags = document.createElement('div');
         projectTags.classList.add('project-tags');
@@ -98,11 +114,15 @@
         src.textContent='Source'
         src.href=project.src
 
+        const Image= document.createElement('img')
+        Image.src=project.Img
+
         projectContainer.appendChild(projectName);
         projectContainer.appendChild(projectDescription);
         projectContainer.appendChild(projectTags);
         projectContainer.appendChild(projectManager);
         projectContainer.appendChild(src);
+        projectContainer.appendChild(Image);
 
         projectsContainer.appendChild(projectContainer);
       });
