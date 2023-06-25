@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <style>
+    /* Custom CSS styles */
+    ::-webkit-scrollbar{
+        width: 2px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: black;
+    }
+    *{
+        margin: 0%;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: ibm plex mono;
+    }
+    .project-container {
+      border-radius: 3px;
+      margin: 4px;
+      background: hsl(0, 0%, 93%);
+      padding: 8px;
+    }
+
+    .project-name {
+      font-size: 20px;
+      font-weight: 1000;
+    }
+.project-tags span{
+    margin:3px;
+    padding: 2px;
+    padding-inline: 10px;
+    border-radius: 100px;
+    background: rgb(208, 208, 208);
+    cursor: pointer;
+    transition: .3s;
+}
+.project-tags span:hover{
+    background: rgb(152, 195, 217);
+
+}
+    .project-description {
+      font-size:15px;
+      margin-bottom: 10px;
+    }
+
+    .project-manager {
+      font-style: italic;
+    }
+    .src{
+        display: block;
+        margin-top: 10px;
+        /* background: red; */
+    }
+  </style>
+</head>
+<body>
+  <div id="projects-container"></div>
+
+  <script>
+    // Fetch the JSON data
+    fetch('Projects.json')
+      .then(response => response.json())
+      .then(data => renderProjects(data.Projects))
+      .catch(error => console.error(error));
+
+    // Render projects in the HTML
+    function renderProjects(projects) {
+      const projectsContainer = document.getElementById('projects-container');
+
+      projects.forEach(project => {
+        const projectContainer = document.createElement('div');
+        projectContainer.classList.add('project-container');
+
+        const projectName = document.createElement('h2');
+        projectName.classList.add('project-name');
+        projectName.textContent = project.Name;
+
+        const projectDescription = document.createElement('p');
+        projectDescription.classList.add('project-description');
+        projectDescription.textContent = project.Description;
+
+        const projectTags = document.createElement('div');
+        projectTags.classList.add('project-tags');
+        projectTags.innerHTML = 'Tags: <span>' + project.Tags.join('</span><span>');
+
+        const projectManager = document.createElement('p');
+        projectManager.classList.add('project-manager');
+        projectManager.textContent = 'Manager: ' + project.Manager;
+        
+        const src=document.createElement('a')
+        src.classList.add('src')
+        src.textContent='Source'
+        src.href=project.src
+
+        projectContainer.appendChild(projectName);
+        projectContainer.appendChild(projectDescription);
+        projectContainer.appendChild(projectTags);
+        projectContainer.appendChild(projectManager);
+        projectContainer.appendChild(src);
+
+        projectsContainer.appendChild(projectContainer);
+      });
+    }
+  </script>
+</body>
+</html>

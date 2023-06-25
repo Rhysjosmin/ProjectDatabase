@@ -1,0 +1,63 @@
+{
+    "Date-Created":"25 Jun 2023",
+    "Modified":"25 Jun 2023" ,
+    "Projects":[
+        {
+            "Name":"Minecraft Skeleton Floss",
+            "Date Created":"",
+            "src":"https://youtu.be/4u0azGZfwGU",
+            "Type":"Art",
+            "Medium":"Blender",
+            "Description":"My First Project in blender,The Minecraft Skeleton doing a floss",
+            "Tags":[
+                "Blender",
+                "B3D",
+                "Animation",
+                "Fortnite",
+                "Floss"
+            ],
+            "Timeline":{
+                "Start":"",
+                "End":""
+            },
+            "Status":"complete",
+            "Manager":"Rhys Josmin Rodrigues",
+            "Risks":"None",
+            "Notes":"",
+            "Project Customer":[
+                "Me","Instagram","Youtube"
+            ]
+
+        },
+        {
+            "Name":"Track Hand Torch",
+            "Date Created":"",
+            "src":"https://youtu.be/drWORIzYO5s",
+            "Type":"Art",
+            "Medium":"Blender",
+            "Description":"My First VFX Shot",
+            "Tags":[
+                "Blender",
+                "B3D",
+                "Animation",
+                "VFX",
+                "Object Tracking",
+                "Tracking"
+            ],
+            "Timeline":{
+                "Start":"",
+                "End":""
+            },
+            "Status":"complete",
+            "Manager":"Rhys Josmin Rodrigues",
+            "Risks":"None",
+            "Notes":"",
+            "Project Customer":[
+                "Me","Instagram","Youtube"
+            ]
+
+        }
+
+    ]
+    
+}
