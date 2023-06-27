@@ -1,96 +1,285 @@
 {
-    "Date-Created":"25 Jun 2023",
-    "Modified":"25 Jun 2023" ,
-    "Projects":[
-        {
-            "Name":"Minecraft Skeleton Floss",
-            "Date Created":"",
-            "src":"https://youtu.be/4u0azGZfwGU",
-            "Type":"Art",
-            "Medium":"Blender",
-            "Description":"My First Project in blender,The Minecraft Skeleton doing a floss",
-            "Tags":[
-                "Blender",
-                "B3D",
-                "Animation",
-                "Fortnite",
-                "Floss"
-            ],
-            "Timeline":{
-                "Start":"",
-                "End":""
-            },
-            "Status":"complete",
-            "Manager":"Rhys Josmin Rodrigues",
-            "Risks":"None",
-            "Notes":"",
-            "Project Customer":[
-                "Me","Instagram","Youtube"
-            ],
-            "Img":"Media/Minecraft Skeleton Floss.png"
+  "Date-Created": "25 Jun 2023",
+  "Modified": "25 Jun 2023",
+  "Projects": [
+    {
+      "Name": "Minecraft Skeleton Floss",
+      "Display":"True",
+      "Date Created": "",
+      "src": "https://youtu.be/4u0azGZfwGU",
+      "Type": "Art",
+      "Medium": "Blender",
+      "Description": "My First Project in blender,The Minecraft Skeleton doing a floss",
+      "Tags": ["Blender", "B3D", "Animation", "Fortnite", "Floss"],
+      "Timeline": {
+        "Start": "2019-14-3",
+        "End": "2019-14-3"
+      },
+      "Status": "complete",
+      "Manager": "Rhys Josmin Rodrigues",
+      "Risks": "None",
+      "Notes": "",
+      "Project Customer": ["Me", "Instagram", "Youtube"],
+      "Img": "Media/Minecraft Skeleton Floss.png",
+      "Subprojects":[
 
+      ]
+    },
+    {
+      "Name": "Track Hand Torch",
+      "Display":"True",
+      "Date Created": "",
+      "src": "https://youtu.be/drWORIzYO5s",
+      "Type": "Art",
+      "Medium": "Blender",
+      "Description": "My First VFX Shot",
+      "Tags": [
+        "Blender",
+        "B3D",
+        "Animation",
+        "VFX",
+        "Object Tracking",
+        "Tracking"
+      ],
+      "Timeline": {
+        "Start": "2019-12-6",
+        "End": "2019-12-6"
+      },
+      "Status": "complete",
+      "Manager": "Rhys Josmin Rodrigues",
+      "Risks": "None",
+      "Notes": "",
+      "Project Customer": ["Me", "Instagram", "Youtube"],
+      "Img": "Media/Track Hand Torch.webp",
+      "Subprojects":[
+
+      ]
+    },
+    {
+      "Name": "Rhys Josmin Website",
+      "Display":"True",
+      "Date Created": "2022-04-26",
+      "src": "rhysjosmin.netlify.app",
+      "Type": "WebDev",
+      "Medium": "HTML",
+      "Description": "My Portfolio Website",
+      "Tags": ["HTML", "CSS", "JS", "Website", "Dev", "Frontend", "Figma"],
+      "Timeline": {
+        "Start": "2022-04-26",
+        "End": "Present"
+      },
+      "Status": "Ongoing",
+      "Manager": "Rhys Josmin Rodrigues",
+      "Risks": "None",
+      "Notes": "",
+      "Project Customer": ["Me", "Instagram", "Youtube"],
+      "Img": "Media/Rhys Josmin Website.png",
+      "Subprojects":[
+
+      ]
+    },
+    {
+      "Name": "Inspirus Website Redesign",
+      "Display":"True",
+      "Date Created": "",
+      "src": "www.inspirus.dbcegoa.ac.in/",
+      "Type": "WebDev",
+      "Medium": "HTML",
+      "Description": "The Website For The Inspirus Event Held By the Don Bosco College Of Engineering",
+      "Tags": ["HTML", "CSS", "Website", "Dev", "Frontend", "Figma"],
+      "Timeline": {
+        "Start": "",
+        "End": ""
+      },
+      "Status": "complete",
+      "Manager": "Leo Barros",
+      "Risks": "",
+      "Notes": "",
+      "Project Customer": ["DBCE", "Engineering Students"],
+      "Img": "",
+      "Subprojects":[
+        
+      ]
+    },
+    {
+      "Name": "ACM Website",
+      "Display":"True",
+      "Date Created": "",
+      "src": "",
+      "Type": "",
+      "Medium": "",
+      "Description": "",
+      "Tags": [],
+      "Timeline": {
+        "Start": "",
+        "End": ""
+      },
+      "Status": "",
+      "Manager": "",
+      "Risks": "",
+      "Notes": "",
+      "Project Customer": [],
+      "Img": "",
+      "Subprojects":[
+        
+      ]
+    },
+    {
+      "Name": "Avinya Website",
+      "Display":"True",
+      "Date Created": "",
+      "src": "",
+      "Type": "",
+      "Medium": "",
+      "Description": "",
+      "Tags": [],
+      "Timeline": {
+        "Start": "",
+        "End": ""
+      },
+      "Status": "",
+      "Manager": "",
+      "Risks": "",
+      "Notes": "",
+      "Project Customer": [],
+      "Img": "",
+      "Subprojects":[
+        
+      ]
+    },
+   
+    {
+      "Name": "Neural Kissan",
+      "Display":"False",
+      "Date Created": "",
+      "src": "",
+      "Type": "CTO",
+      "Medium": "",
+      "Description": "",
+      "Tags": [],
+      "Timeline": {
+        "Start": "",
+        "End": ""
+      },
+      "Status": "",
+      "Manager": "",
+      "Risks": "",
+      "Notes": "",
+      "Project Customer": [],
+      "Img": "",
+      "Sub Projects":[
+        {
+          "Name": "Neural Kissan Concept Video",
+          "Date Created": "",
+          "src": "",
+          "Type": "",
+          "Medium": "",
+          "Description": "",
+          "Tags": [],
+          "Timeline": {
+            "Start": "",
+            "End": ""
+          },
+          "Status": "",
+          "Manager": "",
+          "Risks": "",
+          "Notes": "",
+          "Project Customer": [],
+          "Img": "",
+          "Subprojects":[
+            
+          ]
         },
         {
-            "Name":"Track Hand Torch",
-            "Date Created":"",
-            "src":"https://youtu.be/drWORIzYO5s",
-            "Type":"Art",
-            "Medium":"Blender",
-            "Description":"My First VFX Shot",
-            "Tags":[
-                "Blender",
-                "B3D",
-                "Animation",
-                "VFX",
-                "Object Tracking",
-                "Tracking"
-            ],
-            "Timeline":{
-                "Start":"",
-                "End":""
-            },
-            "Status":"complete",
-            "Manager":"Rhys Josmin Rodrigues",
-            "Risks":"None",
-            "Notes":"",
-            "Project Customer":[
-                "Me","Instagram","Youtube"
-            ],
-            "Img":"Media/Track Hand Torch.webp"
-
+          "Name": "Neural Kissan Models",
+          "Date Created": "",
+          "src": "",
+          "Type": "",
+          "Medium": "",
+          "Description": "",
+          "Tags": [],
+          "Timeline": {
+            "Start": "",
+            "End": ""
+          },
+          "Status": "",
+          "Manager": "",
+          "Risks": "",
+          "Notes": "",
+          "Project Customer": [],
+          "Img": "",
+          "Subprojects":[
+            
+          ]
         },
         {
-            "Name":"Rhys Josmin Website",
-            "Date Created":"2022-04-26",
-            "src":"rhysjosmin.netlify.app",
-            "Type":"WebDev",
-            "Medium":"HTML",
-            "Description":"My Portfolio Website",
-            "Tags":[
-                "HTML",
-                "CSS",
-                "JS",
-                "Website",
-                "Dev",
-                "Frontend",
-                "Figma"
-               
-            ],
-            "Timeline":{
-                "Start":"2022-04-26",
-                "End":"Present"
-            },
-            "Status":"Ongoing",
-            "Manager":"Rhys Josmin Rodrigues",
-            "Risks":"None",
-            "Notes":"",
-            "Project Customer":[
-                "Me","Instagram","Youtube"
-            ],
-            "Img":"Media/Rhys Josmin Website.png"
-
+          "Name": "Neural Kissan Website",
+          "Date Created": "",
+          "src": "",
+          "Type": "",
+          "Medium": "",
+          "Description": "",
+          "Tags": [],
+          "Timeline": {
+            "Start": "",
+            "End": ""
+          },
+          "Status": "",
+          "Manager": "",
+          "Risks": "",
+          "Notes": "",
+          "Project Customer": [],
+          "Img": "",
+          "Subprojects":[
+            
+          ]
+        },
+        {
+          "Name": "Neural Kissan Dashboard",
+          "Date Created": "",
+          "src": "",
+          "Type": "",
+          "Medium": "",
+          "Description": "",
+          "Tags": [],
+          "Timeline": {
+            "Start": "",
+            "End": ""
+          },
+          "Status": "",
+          "Manager": "",
+          "Risks": "",
+          "Notes": "",
+          "Project Customer": [],
+          "Img": "",
+          "Subprojects":[
+            
+          ]
+        },
+        {
+          "Name": "Neural Kissan Main",
+          "Date Created": "",
+          "src": "",
+          "Type": "",
+          "Medium": "",
+          "Description": "",
+          "Tags": [],
+          "Timeline": {
+            "Start": "",
+            "End": ""
+          },
+          "Status": "",
+          "Manager": "",
+          "Risks": "",
+          "Notes": "",
+          "Project Customer": [],
+          "Img": "",
+          "Subprojects":[
+            
+          ]
         }
-
-    ]
+      ]
+    }
     
+  ]
 }
