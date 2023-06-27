@@ -21,7 +21,7 @@
       "Notes": "",
       "Project Customer": ["Me", "Instagram", "Youtube"],
       "Img": "Media/Minecraft Skeleton Floss.png",
-      "Subprojects":[
+      "Sub Projects":[
 
       ]
     },
@@ -51,8 +51,69 @@
       "Notes": "",
       "Project Customer": ["Me", "Instagram", "Youtube"],
       "Img": "Media/Track Hand Torch.webp",
-      "Subprojects":[
+      "Sub Projects":[
 
+      ]
+    },
+    {
+      "Name": "Cant Help Falling In Love Music Video",
+      "Display":"True",
+      "Date Created": "",
+      "src": "",
+      "Type": "Art",
+      "Medium": "Blender",
+      "Description": "A Fully 3D Animated Music Video For My Friend Lynella",
+      "Tags": [
+        "Blender",
+        "B3D",
+        "Animation",
+        "Rotoscoping",
+        "Video Editing",
+        "Environment Design"
+      ],
+      "Timeline": {
+        "Start": "",
+        "End": ""
+      },
+      "Status": "complete",
+      "Manager": "Rhys Josmin Rodrigues",
+      "Risks": "None",
+      "Notes": "",
+      "Project Customer": ["Lynella"],
+      "Img": "Media/Track Hand Torch.webp",
+      "Sub Projects":[
+        {
+          "Name": "Blue Robot",
+          "Display":"True",
+          "Date Created": "",
+          "src": "",
+          "Type": "Art",
+          "Medium": "Blender",
+          "Description": "A Blue Robot Made For The Cant Help Falling In Love Music Video",
+          "Tags": [
+            "Blender",
+            "B3D",
+            "Rigging",
+            "Sculpting",
+            "Modeling",
+            "Shading",
+            "Character Design",
+            "Texturing"
+          ],
+          "Timeline": {
+            "Start": "",
+            "End": ""
+          },
+          "Status": "",
+          "Manager": "Rhys Josmin Rodrigues",
+          "Risks": "",
+          "Notes": "",
+          "Project Customer": ["Lynella"],
+          "Img": "",
+          "Sub Projects":[
+    
+          ]
+        }
       ]
     },
     {
@@ -74,7 +135,7 @@
       "Notes": "",
       "Project Customer": ["Me", "Instagram", "Youtube"],
       "Img": "Media/Rhys Josmin Website.png",
-      "Subprojects":[
+      "Sub Projects":[
 
       ]
     },
@@ -97,7 +158,7 @@
       "Notes": "",
       "Project Customer": ["DBCE", "Engineering Students"],
       "Img": "",
-      "Subprojects":[
+      "Sub Projects":[
         
       ]
     },
@@ -120,7 +181,7 @@
       "Notes": "",
       "Project Customer": [],
       "Img": "",
-      "Subprojects":[
+      "Sub Projects":[
         
       ]
     },
@@ -143,7 +204,7 @@
       "Notes": "",
       "Project Customer": [],
       "Img": "",
-      "Subprojects":[
+      "Sub Projects":[
         
       ]
     },
@@ -186,7 +247,7 @@
           "Notes": "",
           "Project Customer": [],
           "Img": "",
-          "Subprojects":[
+          "Sub Projects":[
             
           ]
         },
@@ -208,7 +269,7 @@
           "Notes": "",
           "Project Customer": [],
           "Img": "",
-          "Subprojects":[
+          "Sub Projects":[
             
           ]
         },
@@ -230,7 +291,7 @@
           "Notes": "",
           "Project Customer": [],
           "Img": "",
-          "Subprojects":[
+          "Sub Projects":[
             
           ]
         },
@@ -252,7 +313,7 @@
           "Notes": "",
           "Project Customer": [],
           "Img": "",
-          "Subprojects":[
+          "Sub Projects":[
             
           ]
         },
@@ -274,7 +335,7 @@
           "Notes": "",
           "Project Customer": [],
           "Img": "",
-          "Subprojects":[
+          "Sub Projects":[
             
           ]
         }
