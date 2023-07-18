@@ -12,8 +12,8 @@
       "Description": "My First Project in blender,The Minecraft Skeleton doing a floss",
       "Tags": ["Blender", "B3D", "Animation", "Fortnite", "Floss"],
       "Timeline": {
-        "Start": "2019-14-3",
-        "End": "2019-14-3"
+        "Start": "14-3-2019",
+        "End": ""
       },
       "Status": "complete",
       "Manager": "Rhys Josmin Rodrigues",
@@ -42,8 +42,8 @@
         "Tracking"
       ],
       "Timeline": {
-        "Start": "2019-12-6",
-        "End": "2019-12-6"
+        "Start": "12-7-2019",
+        "End": ""
       },
       "Status": "complete",
       "Manager": "Rhys Josmin Rodrigues",
@@ -72,7 +72,7 @@
         "Environment Design"
       ],
       "Timeline": {
-        "Start": "",
+        "Start": "5-12-2019",
         "End": ""
       },
       "Status": "complete",
@@ -80,7 +80,7 @@
       "Risks": "None",
       "Notes": "",
       "Project Customer": ["Lynella"],
-      "Img": "Media/Track Hand Torch.webp",
+      "Img": "Media/Blue.png",
       "Sub Projects":[
         {
           "Name": "Blue Robot",
@@ -101,7 +101,7 @@
             "Texturing"
           ],
           "Timeline": {
-            "Start": "",
+            "Start": "15-9-2022",
             "End": ""
           },
           "Status": "",
@@ -120,14 +120,14 @@
       "Name": "Rhys Josmin Website",
       "Display":"True",
       "Date Created": "2022-04-26",
-      "src": "rhysjosmin.netlify.app",
+      "src": "https://rhysjosmin.netlify.app",
       "Type": "WebDev",
       "Medium": "HTML",
       "Description": "My Portfolio Website",
       "Tags": ["HTML", "CSS", "JS", "Website", "Dev", "Frontend", "Figma"],
       "Timeline": {
-        "Start": "2022-04-26",
-        "End": "Present"
+        "Start": "07-04-2022",
+        "End": ""
       },
       "Status": "Ongoing",
       "Manager": "Rhys Josmin Rodrigues",
@@ -143,13 +143,13 @@
       "Name": "Inspirus Website Redesign",
       "Display":"True",
       "Date Created": "",
-      "src": "www.inspirus.dbcegoa.ac.in/",
+      "src": "https://www.inspirus.dbcegoa.ac.in/",
       "Type": "WebDev",
       "Medium": "HTML",
       "Description": "The Website For The Inspirus Event Held By the Don Bosco College Of Engineering",
       "Tags": ["HTML", "CSS", "Website", "Dev", "Frontend", "Figma"],
       "Timeline": {
-        "Start": "",
+        "Start": "28-9-2022",
         "End": ""
       },
       "Status": "complete",
@@ -157,7 +157,7 @@
       "Risks": "",
       "Notes": "",
       "Project Customer": ["DBCE", "Engineering Students"],
-      "Img": "",
+      "Img": "Media/Inspirus.png",
       "Sub Projects":[
         
       ]
@@ -172,7 +172,7 @@
       "Description": "",
       "Tags": [],
       "Timeline": {
-        "Start": "",
+        "Start": "27-8-2022",
         "End": ""
       },
       "Status": "",
@@ -180,7 +180,7 @@
       "Risks": "",
       "Notes": "",
       "Project Customer": [],
-      "Img": "",
+      "Img": "Media/ACM Website.png",
       "Sub Projects":[
         
       ]
@@ -195,7 +195,7 @@
       "Description": "",
       "Tags": [],
       "Timeline": {
-        "Start": "",
+        "Start": "10-12-2022",
         "End": ""
       },
       "Status": "",
@@ -203,7 +203,7 @@
       "Risks": "",
       "Notes": "",
       "Project Customer": [],
-      "Img": "",
+      "Img": "Media/Avinya.png",
       "Sub Projects":[
         
       ]
