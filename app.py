@@ -3,7 +3,7 @@ import json
 from datetime import date, datetime
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
-
+import os
 class CSVEventHandler(FileSystemEventHandler):
     def on_modified(self, event):
         if event.src_path.endswith('data.csv'):
@@ -16,6 +16,8 @@ def convert_csv_to_json():
         next(csv_data)  # Skip the header row
         manylinksMain='https://rhysjosmin.github.io/ManyLinks/'
         projects = []
+        Files=os.listdir('Media/')
+     
         # Process each row in the CSV file
         for row in csv_data:
             name = row[0]
@@ -24,14 +26,20 @@ def convert_csv_to_json():
             src = row[3]
             Image = row[4]
             Vertical=row[5]
-         
+
             if 'manylinks' in src:
                 src=manylinksMain + src.split('+')[1].replace('<>',',')
-            
+            if Image == 'Image' or Image == 'imgName':
+                print('No Image : ' ,end='')
+                print(name)
+            elif Image not in Files:
+                print('Image Not Found : ' ,end='')
+                print(name)
             try:
                 Start = f"{date_created.split(' ')[1]}-{datetime.strptime(date_created.split(' ')[0], '%B').month}-{date_created.split(' ')[2]}"
             except:
-                print(name)
+                print('No Date : ' ,end='')
+                print(name )
                 Start = '1-1-2019'
             # Create a project dictionary
             project = {
