@@ -1,6 +1,6 @@
 {
   "Date-Created": "25 Jun 2023",
-  "Modified": "26 July 2023",
+  "Modified": "27 July 2023",
   "Projects": [
     {
       "Name": "Minecraft Skeleton Floss",
@@ -1974,7 +1974,7 @@
       "Project Customer": [],
       "Img": "imgName",
       "Sub Projects": [],
-      "VerticalPosition": "0"
+      "VerticalPosition": ".7"
     },
     {
       "Name": "Avinya Website",
@@ -2394,7 +2394,7 @@
       "Project Customer": [],
       "Img": "Tom Ellis.gif",
       "Sub Projects": [],
-      "VerticalPosition": "0"
+      "VerticalPosition": "1"
     },
     {
       "Name": "Dwayne Johnson sculpt ",
@@ -2478,7 +2478,7 @@
       "Project Customer": [],
       "Img": "Image",
       "Sub Projects": [],
-      "VerticalPosition": "0"
+      "VerticalPosition": "1.1"
     },
     {
       "Name": "Blender project management flutter",
@@ -2544,7 +2544,7 @@
       "VerticalPosition": "0"
     },
     {
-      "Name": "Datahack Hackathon with Leo Barros",
+      "Name": "2nd Place at Datahack Hackathon with Leo Barros",
       "Date Created": "October 24 2022",
       "src": "src",
       "Type": "",
@@ -2560,7 +2560,7 @@
       "Risks": "",
       "Notes": "",
       "Project Customer": [],
-      "Img": "Image",
+      "Img": "DataHack Hackathon.jpg",
       "Sub Projects": [],
       "VerticalPosition": "0"
     },
@@ -2581,7 +2581,7 @@
       "Risks": "",
       "Notes": "",
       "Project Customer": [],
-      "Img": "Image",
+      "Img": "RhysSkydiving.gif",
       "Sub Projects": [],
       "VerticalPosition": "0"
     },
@@ -2604,7 +2604,7 @@
       "Project Customer": [],
       "Img": "Image",
       "Sub Projects": [],
-      "VerticalPosition": "0"
+      "VerticalPosition": ".65"
     },
     {
       "Name": "Deathless",
@@ -2709,10 +2709,10 @@
       "Project Customer": [],
       "Img": "CryptoPhunks.png",
       "Sub Projects": [],
-      "VerticalPosition": "0"
+      "VerticalPosition": "1.68"
     },
     {
-      "Name": "2d animation 50k 200k yellow duck",
+      "Name": "2d animation 50k yellow duck",
       "Date Created": "December 22 2022",
       "src": "src",
       "Type": "",
@@ -2728,9 +2728,30 @@
       "Risks": "",
       "Notes": "",
       "Project Customer": [],
-      "Img": "Image",
+      "Img": "YD50k.gif",
       "Sub Projects": [],
       "VerticalPosition": "0"
+    },
+    {
+      "Name": "2d animation 100k yellow duck",
+      "Date Created": "December 22 2022",
+      "src": "src",
+      "Type": "",
+      "Medium": "",
+      "Description": "",
+      "Tags": [],
+      "Timeline": {
+        "Start": "22-12-2022",
+        "End": ""
+      },
+      "Status": "",
+      "Manager": "Rhys Josmin",
+      "Risks": "",
+      "Notes": "",
+      "Project Customer": [],
+      "Img": "YD100k.gif",
+      "Sub Projects": [],
+      "VerticalPosition": "1"
     },
     {
       "Name": "Gary vee yellow duck",
@@ -2838,27 +2859,6 @@
       "VerticalPosition": "0"
     },
     {
-      "Name": "Dont Do Drugs Reel Competition",
-      "Date Created": "June 11 2022",
-      "src": "src",
-      "Type": "",
-      "Medium": "",
-      "Description": "",
-      "Tags": [],
-      "Timeline": {
-        "Start": "11-6-2022",
-        "End": ""
-      },
-      "Status": "",
-      "Manager": "Rhys Josmin",
-      "Risks": "",
-      "Notes": "",
-      "Project Customer": [],
-      "Img": "Image",
-      "Sub Projects": [],
-      "VerticalPosition": "0"
-    },
-    {
       "Name": "Yes To Life Reel Competition",
       "Date Created": "November 20 2021",
       "src": "src",
@@ -2875,7 +2875,7 @@
       "Risks": "",
       "Notes": "",
       "Project Customer": [],
-      "Img": "Image",
+      "Img": "NoToDrugsReel.gif",
       "Sub Projects": [],
       "VerticalPosition": "0"
     },
@@ -2959,7 +2959,28 @@
       "Risks": "",
       "Notes": "",
       "Project Customer": [],
-      "Img": "Shark Render.png",
+      "Img": "lizzard Sculpt.png",
+      "Sub Projects": [],
+      "VerticalPosition": "0"
+    },
+    {
+      "Name": "Blender Project Manager Electron",
+      "Date Created": "july 22 2023",
+      "src": "https://github.com/Rhysjosmin/BlenderProjectManager",
+      "Type": "",
+      "Medium": "",
+      "Description": "",
+      "Tags": [],
+      "Timeline": {
+        "Start": "22-7-2023",
+        "End": ""
+      },
+      "Status": "",
+      "Manager": "Rhys Josmin",
+      "Risks": "",
+      "Notes": "",
+      "Project Customer": [],
+      "Img": "Image",
       "Sub Projects": [],
       "VerticalPosition": "0"
     }

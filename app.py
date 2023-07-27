@@ -17,7 +17,7 @@ def convert_csv_to_json():
         manylinksMain='https://rhysjosmin.github.io/ManyLinks/'
         projects = []
         Files=os.listdir('Media/')
-     
+      
         # Process each row in the CSV file
         for row in csv_data:
             name = row[0]
@@ -26,7 +26,8 @@ def convert_csv_to_json():
             src = row[3]
             Image = row[4]
             Vertical=row[5]
-
+       
+            
             if 'manylinks' in src:
                 src=manylinksMain + src.split('+')[1].replace('<>',',')
             if Image == 'Image' or Image == 'imgName':
@@ -66,7 +67,6 @@ def convert_csv_to_json():
 
             # Add the project to the list
             projects.append(project)
-
         # Create the JSON data
         json_data = {
             "Date-Created": "25 Jun 2023",
@@ -81,6 +81,8 @@ def convert_csv_to_json():
         with open('data.json', 'w') as json_file:
             json_file.write(json_string)
 
+       
+       
         print("Conversion completed successfully!")
 
 # Create an observer and event handler
