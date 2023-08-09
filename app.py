@@ -26,7 +26,7 @@ def convert_csv_to_json():
             src = row[3]
             Image = row[4]
             Vertical=row[5]
-       
+        
             
             if 'manylinks' in src:
                 src=manylinksMain + src.split('+')[1].replace('<>',',')

@@ -14,7 +14,7 @@ if __name__ == "__main__":
     # Optional: If you want to convert only a specific duration of the video, set the 'duration' parameter (in seconds)
     # duration = 10
     
-    convert_mp4_to_gif(r"D:\YD\50k.mp4", 'Media/YD50k.gif')
-    convert_mp4_to_gif(r"D:\YD\Final.mp4", 'Media/YD100k.gif')
+    # convert_mp4_to_gif(r"D:\YD\50k.mp4", 'Media/YD50k.gif')
+    convert_mp4_to_gif(r"D:/Assets/Mine/drone/0001-0080.mp4", 'Media/Drone.gif')
     # for Video in os.listdir('Media/mp4/'): 
     #     convert_mp4_to_gif('Media/mp4/'+Video, 'Media/gif/'+Video.replace('.mp4','.gif'))
